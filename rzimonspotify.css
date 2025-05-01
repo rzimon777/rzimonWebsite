@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    
+    width: 100%;
+    
+    font: 900 clamp(.875em, 7.25vw, 5em) Arial black, sans-serif;
+    text-align: center;
+    float: left;
+}
+.melting-text-container {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.melting-text {
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    animation: melt 4s infinite ease-in-out;
+    background: linear-gradient(90deg, #ff0000, #ff0000, #ff0000);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.melting-text::before,.melting-text::after {
+    content: 'rzimon';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ffffff, #fffefd, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: -1;
+    transform: scaleY(1);
+    opacity: 0.5;
+    animation: drip 4s infinite ease-in-out;
+}
+
+.melting-text::after {
+    filter: blur(10px);
+    opacity: 0.3;
+}
+@keyframes melt {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes drip {
+    0%, 100% {
+        transform: scaleY(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scaleY(1.5);
+        opacity: 0.7;
+    }
+}
+#photo{
+    width: 350px;
+    height: 350px;
+    border: solid 2px white;
+    border-radius: 15%;
+}
+#music{
+    padding-top: 10%;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    float: left;
+
+}
+#haer{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#photo{
+    transition: transform 250ms;
+}
+
+#photo:hover {
+  transform: translateY(-1vh);
+}
+h3{
+    color: white;
+    text-align: center;
+}
+#MMM{
+    height: 400px;
+}
+
+#Kontakt{
+    text-align: left;
+    text-decoration: underline;
+}
+#linkacz{
+    text-decoration: none;
+    color: #ff0000;
+    
+}
+#linkacz:visited {
+    color: green;
+}
