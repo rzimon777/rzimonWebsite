@@ -25,7 +25,7 @@ header{
     text-transform: uppercase;
     color: #fff;
     position: relative;
-    animation: melt 4s infinite ease-in-out;
+    animation: melt 2s infinite ease-in-out;
     background: linear-gradient(90deg, #ff0000, #ff0000, #ff0000);
     -webkit-background-clip: text;
     color: transparent;
@@ -104,13 +104,19 @@ h3{
     color: white;
     text-align: center;
 }
+h3:hover{
+    color: red;
+    cursor:pointer;
+}
 #MMM{
     height: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #Kontakt{
     text-align: left;
     text-decoration: underline;
+    color: white;
 }
 #linkacz{
     text-decoration: none;
