@@ -77,14 +77,15 @@ header{
     border-radius: 15%;
 }
 #music{
-    padding-top: 10%;
-    height: 1000px;
+    padding-top: 5%;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 40px;
     float: left;
+    margin-bottom: 4%;
 
 }
 #haer{
@@ -110,7 +111,7 @@ h3:hover{
 }
 #MMM{
     height: 400px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #Kontakt{
@@ -125,4 +126,13 @@ h3:hover{
 }
 #linkacz:visited {
     color: green;
+}
+#inquiry:hover{
+    color: #ff0000;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
 }
