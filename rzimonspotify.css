@@ -29,7 +29,7 @@ header{
     color: #fff;
     position: relative;
     animation: melt 2s infinite ease-in-out;
-    background: linear-gradient(90deg, #ff0000, #ff0000, #ff0000);
+    background: linear-gradient(90deg, #ffffff, #ffffff, #ffffff);
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -124,12 +124,11 @@ h3:hover{
 }
 #linkacz{
     text-decoration: none;
-    color: #ff0000;
+    color: #000000;
+    text-shadow: -2px -2px rgba(255, 255, 255, 0.712);
     
 }
-#linkacz:visited {
-    color: green;
-}
+
 #inquiry:hover{
     color: #ff0000;
 }
