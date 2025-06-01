@@ -6,17 +6,17 @@ body{
     background-color: black;
 }
 header{
-    
     width: 100%;
-    
     font: 900 clamp(.875em, 7.25vw, 5em) Arial black, sans-serif;
     text-align: center;
     float: left;
+    height: 210px;
+
 }
 .melting-text-container {
     position: relative;
     overflow: hidden;
-    height: 200px;
+    padding: 2%;
 }
 
 .melting-text {
@@ -107,10 +107,10 @@ header{
 h3{
     color: white;
     text-align: center;
+    
 }
 h3:hover{
-    color: red;
-    cursor:pointer;
+    color:rgb(144, 19, 228);
 }
 #MMM{
     height: 400px;
@@ -137,4 +137,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 2%;
+}
+a{
+    text-decoration: none;
 }
