@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: #000000;
+
 }
 header{
     width: 100%;
@@ -109,9 +110,6 @@ h3{
     text-align: center;
     
 }
-h3:hover{
-    color:rgb(144, 19, 228);
-}
 #MMM{
     height: 400px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -129,15 +127,19 @@ h3:hover{
     
 }
 
-#inquiry:hover{
-    color: #ff0000;
-}
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2%;
 }
-a{
+#smartlink{
     text-decoration: none;
+    color:rgb(144, 19, 228);
+}
+#smartlink:hover{
+    color: #ff0000;
+    text-decoration: overline;
+    font-variant: small-caps;
+    font-style: italic;
 }
